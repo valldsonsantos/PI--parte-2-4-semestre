@@ -116,7 +116,7 @@ cd PI--parte-2-4-semestre
 - 📽️ Vídeo de apresentação de até 1 minuto
 - 📄 README.md completo e atualizado
 
-**📌 Observações**
+>**📌 Observações**
 
 Este repositório será atualizado conforme os membros forem concluindo suas partes. O foco inicial está na estruturação do back-end e front-end, com integração básica prevista para os próximos dias.
 
