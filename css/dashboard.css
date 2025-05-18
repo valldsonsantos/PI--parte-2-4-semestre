@@ -1,0 +1,168 @@
+/* Importando fontes e reset básico */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #ecf0f1;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background: #564f8b;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Main container */
+main {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*  List */
+#task-list {
+    width: 100%;
+    max-width: 960px;
+    margin-bottom: 2rem;
+}
+
+.task-item {
+    background: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.task-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Add  Btn */
+#add-task-btn {
+    background: #564f8b;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.btn-editar{
+    background: #564f8b;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.btn-excluir{
+    background: #564f8b;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+#add-task-btn:hover {
+    background: #fff;
+    color: #8e85d8;
+    border: 1px solid #564f8b;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+/* Textos  */
+#add-task-txt {
+    background: #564f8b;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+/* Modal */
+#task-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.modal-content {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsividade */
+@media screen and (max-width: 1040px) {
+    main {
+        padding: 1rem;
+    }
+
+    #task-list {
+        width: 90%;
+    }
+
+    #add-task-btn {
+        width: 100%;
+        max-width: 200px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    #add-task-btn {
+        font-size: 0.9rem;
+        padding: 0.8rem 1.5rem;
+    }
+}
