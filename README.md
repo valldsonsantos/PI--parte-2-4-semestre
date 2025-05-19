@@ -1,5 +1,5 @@
 **Projeto Integrador - Parte 2 - 4º Semestre**
-
+---------------------------------------------------
 **🧠 Objetivo do Projeto**
 
 Desenvolver um aplicativo voltado para a organização da vida acadêmica de estudantes universitários, com foco na gestão de prazos, provas, trabalhos e rotinas de estudo.
@@ -7,11 +7,74 @@ A aplicação será composta por um Frontend web e um Backend em C# (.NET Core),
 
 **🚀 Tecnologias Utilizadas**
 
-✔️ Frontend (em desenvolvimento)
+✔️ Frontend
 - HTML5
 - CSS3
 - JavaScript (puro)
-- [Espaço reservado para a Aline documentar a parte do Frontend]
+
+
+Esta interface foi desenvolvida com HTML5, CSS3 e JavaScript puro para fornecer uma experiência visual
+moderna e responsiva para usuários realizarem login ou cadastro no sistema. O layout é dividido em duas
+seções principais: Login e Cadastro, com transições suaves entre os dois modos, garantindo uma experiência
+de usuário intuitiva e agradável.
+
+**_Funcionalidades:_**
+
+- _Animação de Transição:_ alternância dinâmica entre os formulários de login e cadastro utilizando classes CSS e animações com @keyframes.
+
+- Responsividade: design adaptado para dispositivos móveis por meio de media queries, garantindo usabilidade em diferentes resoluções.
+
+**_Design Agradável e Moderno:_**
+
+- Paleta de cores harmônica com destaque para tons de roxo e branco.
+
+- Fontes importadas do Google Fonts (Open Sans).
+
+- Ícones sociais com interação visual (hover).
+
+- Formulários com Experiência Aprimorada:
+
+- Campos com focus estilizado.
+
+- Suporte a preenchimento automático com estilo (autofill).
+
+- Componentes reutilizáveis com classes bem definidas.
+
+**_Interatividade:_**
+
+- Botões de "Entrar" e "Cadastrar" alternam os modos de visualização ao manipular a classe do body.
+
+**_Estrutura de Componentes_**
+
+- _container:_ centraliza a tela e define o fundo geral.
+
+- _content:_ componente principal com efeito de sombra e arredondamento de bordas.
+
+- _first-content e .second-content:_ controlam qual conteúdo está visível (login ou cadastro).
+
+- _form:_ contém os campos de entrada dos formulários.
+
+- _btn, .title, .description:_ estilos reutilizáveis para botões, títulos e descrições.
+
+- _social-media:_ exibe ícones de redes sociais (estáticos neste exemplo).
+
+**_Lógica JavaScript_**
+
+var btnSignin = document.querySelector("#signin");
+
+var btnSignup = document.querySelector("#signup");
+
+var body = document.querySelector("body");
+
+btnSignin.addEventListener("click", function () {
+   body.className = "sign-in-js"; 
+});
+
+btnSignup.addEventListener("click", function () {
+    body.className = "sign-up-js";
+});
+
+_Esse script manipula a classe do < body > para alternar entre os modos de login e cadastro, ativando as animações CSS associadas._
 
 ✔️ Backend
 - ASP.NET Core Web API (C#)
@@ -28,30 +91,29 @@ A aplicação será composta por um Frontend web e um Backend em C# (.NET Core),
 
 PI--parte-2-4-semestre/
 
-├── backend/
+|| |──Backend/
 
-│   ├── Controllers/
+|| |── Controllers/
 
-│   │   └── LoginController.cs
+||── LoginController.cs
 
-│   ├── Models/
+|| |── Models/
 
-│   │   └── LoginRequest.cs
+||─── LoginRequest.cs
 
-│   ├── Program.cs
+||── Program.cs
 
-│   └── appsettings.json
+||── appsettings.json
 
-├── frontend/
+|| |── Frontend/
 
-│   ├── index.html
-![image]()
+||── index.html
 
-│   ├── login.html
+||── login.html
 
-│   └── style.css
+||── style.css
 
-├── README.md
+|| |─── README.md
 
 **📡 Endpoints Disponíveis (Backend)**
 
