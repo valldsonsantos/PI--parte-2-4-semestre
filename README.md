@@ -163,17 +163,17 @@ cd PI--parte-2-4-semestre
 
 **Nome** (Função)
 
-**Bruno Ruiz Ribeiro Machado**	(Backend {API C# .NET Core})
+- **Bruno Ruiz Ribeiro Machado**	(Backend {API C# .NET Core})
 
-**Aline Andrade Cintra Camargo**	(Frontend {Tela de Login})
+- **Aline Andrade Cintra Camargo**	(Frontend {Tela de Login})
 
-**Pedro Henrique Andrade Monteiro**	(Frontend {Dashboard Tarefas})
+- **Pedro Henrique Andrade Monteiro**	(Frontend {Dashboard Tarefas})
 
-**Renan Samuel de Oliveira**	(Backend {Tarefas / Integração BD})
+- **Renan Samuel de Oliveira**	(Backend {Tarefas / Integração BD})
 
-**Valdson S Almeida**	(Documentação / Vídeo de Apresentação)
+- **Valdson S Almeida**	(Documentação / Vídeo de Apresentação)
 
-**Wellington Correa Ferreira** (Banco de Dados {Tabelas e scripts})
+- **Wellington Correa Ferreira** (Banco de Dados {Tabelas e scripts})
 
 **🎬 Entrega**
 
