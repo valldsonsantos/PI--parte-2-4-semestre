@@ -78,6 +78,8 @@ _Esse script manipula a classe do < body > para alternar entre os modos de login
 
 ![Image](https://github.com/user-attachments/assets/5bc7df59-28da-498b-8394-4f8829c66311)
 
+![Image](https://github.com/user-attachments/assets/697de7dc-96df-4a68-88f8-2b0439a7d7e7)
+
 ✔️ Backend
 - ASP.NET Core Web API (C#)
 - .NET 6 ou superior
