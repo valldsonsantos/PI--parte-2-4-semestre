@@ -76,6 +76,8 @@ btnSignup.addEventListener("click", function () {
 
 _Esse script manipula a classe do < body > para alternar entre os modos de login e cadastro, ativando as animações CSS associadas._
 
+![Image](https://github.com/user-attachments/assets/5bc7df59-28da-498b-8394-4f8829c66311)
+
 ✔️ Backend
 - ASP.NET Core Web API (C#)
 - .NET 6 ou superior
