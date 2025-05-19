@@ -91,29 +91,29 @@ _Esse script manipula a classe do < body > para alternar entre os modos de login
 
 PI--parte-2-4-semestre/
 
-|| |──Backend/
+|| |── **Backend/**
 
-|| |── Controllers/
+|| |── **Controllers/**
 
-||── LoginController.cs
+||── _LoginController.cs_
 
-|| |── Models/
+|| |── **Models/**
 
-||─── LoginRequest.cs
+||─── _LoginRequest.cs_
 
-||── Program.cs
+||── _Program.cs_
 
-||── appsettings.json
+||── _appsettings.json_
 
-|| |── Frontend/
+|| |── **Frontend/**
 
-||── index.html
+||── _index.html_
 
-||── login.html
+||── _login.html_
 
-||── style.css
+||── _style.css_
 
-|| |─── README.md
+|| |─── **README.md**
 
 **📡 Endpoints Disponíveis (Backend)**
 
