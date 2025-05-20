@@ -8,6 +8,7 @@ A aplicação será composta por um Frontend web e um Backend em C# (.NET Core),
 **🚀 Tecnologias Utilizadas**
 
 ✔️ Frontend
+-----------------
 - HTML5
 - CSS3
 - JavaScript (puro)
@@ -81,12 +82,14 @@ _Esse script manipula a classe do < body > para alternar entre os modos de login
 ![Image](https://github.com/user-attachments/assets/697de7dc-96df-4a68-88f8-2b0439a7d7e7)
 
 ✔️ Backend
+--------------
 - ASP.NET Core Web API (C#)
 - .NET 6 ou superior
 - API RESTful com Controllers
 - JSON como formato de comunicação
 
 ✔️ Banco de Dados
+-------------------
 - [A definir: MySQL, SQL Server ou SQLite]
 - Tabelas esperadas: Usuarios, Tarefas
 
