@@ -91,7 +91,7 @@ A interface de gestão de tarefas foi criada para oferecer uma experiência aces
 
 ### **Funcionalidades Implementadas**
 
-A interface oferece as seguintes funcionalidades cruciais:
+_A interface oferece as seguintes funcionalidades cruciais:_
 
 Listagem de tarefas: O sistema apresenta uma relação de tarefas com nome e opções de controle.
 
