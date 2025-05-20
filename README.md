@@ -145,6 +145,50 @@ A lógica por trás da aplicação foi implementada com JavaScript puro (vanilla
 ### **Considerações Finais**
 
 A tela criada é um bom exemplo de aplicação front-end para organizar tarefas. Misturar HTML bem estruturado, CSS moderno e que se adapta a diferentes telas e JavaScript funcional resulta em algo leve, que funciona bem e é fácil de usar.
+
+## **API de Tarefas**
+A API de Tarefas foi desenvolvida em C# com .NET 6, utilizando boas práticas para facilitar a criação, consulta, atualização e exclusão de tarefas no sistema. Essa API é responsável por toda a parte do backend relacionada ao controle de tarefas, além de estar integrada a um banco de dados.
+
+### Funcionalidades:
+
+- Cadastro de Tarefas: Permite registrar novas tarefas no sistema.
+
+- Listagem de Tarefas: Exibe todas as tarefas salvas no banco.
+
+- Edição de Tarefas: Atualiza informações de uma tarefa existente.
+
+- Exclusão de Tarefas: Remove tarefas do sistema.
+
+### **Organização do Projeto**
+
+O projeto foi organizado em três partes principais para manter a estrutura limpa e facilitar a manutenção:
+
+- Controllers: Onde ficam os endpoints (rotas) que o sistema usa para se comunicar com a API.
+
+- Models: Define os dados que cada tarefa deve ter (por exemplo: título, descrição, data).
+
+- Data: Responsável por fazer a ligação entre o sistema e o banco de dados através do DbContext.
+
+### **Integração com o Banco de Dados**
+Foi utilizada a ferramenta Entity Framework Core, que permite a criação e manipulação das tabelas do banco de dados de forma automática com base no código. A conexão com o banco é feita através do arquivo appsettings.json.
+
+### _Exemplos de Rotas da API_
+GET /api/tarefas → Retorna todas as tarefas.
+
+POST /api/tarefas → Adiciona uma nova tarefa.
+
+PUT /api/tarefas/{id} → Atualiza uma tarefa específica.
+
+DELETE /api/tarefas/{id} → Exclui uma tarefa.
+
+### **Tecnologias Utilizadas**
+Linguagem: C#
+
+Framework: .NET 6
+
+ORM: Entity Framework Core
+
+Banco de dados: SQL Server
 ## ✔️ Banco de Dados
 
 - [A definir: MySQL, SQL Server ou SQLite]
