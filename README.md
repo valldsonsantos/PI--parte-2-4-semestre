@@ -275,9 +275,9 @@ cd PI--parte-2-4-semestre
 
 - **Renan Samuel de Oliveira**	(Backend {Tarefas / Integração BD})
 
-- **Valdson S Almeida**	(Documentação / Vídeo de Apresentação)
+- **Valdson S Almeida**	(Documentação/Markdown)
 
-- **Wellington Correa Ferreira** (Banco de Dados {Tabelas e scripts})
+- **Wellington Correa Ferreira** (Banco de Dados/Vídeo de Apresentação)
 
 ### **🎬 Entrega**
 
