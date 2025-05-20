@@ -290,4 +290,5 @@ cd PI--parte-2-4-semestre
 
 Este repositório será atualizado conforme os membros forem concluindo suas partes. O foco inicial está na estruturação do back-end e front-end, com integração básica prevista para os próximos dias.
 
-
+[video
+](https://github.com/user-attachments/assets/317598ff-1e59-4703-ba2f-589e099b32c8)
