@@ -13,7 +13,6 @@ A aplicação será composta por um Frontend web e um Backend em C# (.NET Core),
 - CSS3
 - JavaScript (puro)
 
-
 Esta interface foi desenvolvida com HTML5, CSS3 e JavaScript puro para fornecer uma experiência visual
 moderna e responsiva para usuários realizarem login ou cadastro no sistema. O layout é dividido em duas
 seções principais: Login e Cadastro, com transições suaves entre os dois modos, garantindo uma experiência
@@ -25,7 +24,7 @@ de usuário intuitiva e agradável.
 
 - Responsividade: design adaptado para dispositivos móveis por meio de media queries, garantindo usabilidade em diferentes resoluções.
 
-**_Design Agradável e Moderno:_**
+### **_Design Agradável e Moderno:_**
 
 - Paleta de cores harmônica com destaque para tons de roxo e branco.
 
@@ -88,6 +87,64 @@ _Esse script manipula a classe do < body > para alternar entre os modos de login
 - API RESTful com Controllers
 - JSON como formato de comunicação
 
+A interface de gestão de tarefas foi criada para oferecer uma experiência acessível, descomplicada e prática, permitindo que o usuário organize suas atividades de forma otimizada e eficaz. Essa interface integra um sistema simples de produtividade pessoal, priorizando a experiência do usuário, a usabilidade e as melhores práticas de desenvolvimento front-end.
+
+### **Funcionalidades Implementadas**
+
+A interface oferece as seguintes funcionalidades cruciais:
+
+Listagem de tarefas: O sistema apresenta uma relação de tarefas com nome e opções de controle.
+
+Adição de novas tarefas: O usuário tem a opção de inserir novas tarefas ao clicar no botão "Adicionar Nova Tarefa".
+
+Edição de tarefas: Cada item da lista possui um botão de edição que possibilita modificar o nome da tarefa através de um prompt.
+
+Exclusão de tarefas: Há também a possibilidade de remover tarefas individualmente usando o botão "Excluir".
+
+As tarefas são gerenciadas dinamicamente com JavaScript, garantindo a atualização imediata da lista sem a necessidade de atualizar a página.
+
+### **Responsividade**
+
+A tela foi projetada para ser totalmente responsiva, adaptando-se a diferentes tamanhos de dispositivos, como smartphones, tablets e computadores. Foram utilizadas media queries para ajustar o layout, tamanhos de botões e margens conforme a dimensão da tela. Essa característica é vital para garantir acessibilidade e usabilidade em diferentes cenários de uso.
+
+### **Design da Interface**
+
+_O design foi elaborado com foco na simplicidade, clareza e modernidade. Os principais elementos visuais incluem:_
+
+- Cabeçalho com cor de fundo roxa e fonte branca, realçando o título da aplicação.
+
+- Cartões de tarefa com fundo branco, sombra e bordas arredondadas, proporcionando destaque e separação visual.
+
+- Botões com efeito de transição, sombra e cores contrastantes, aprimorando a identificação das ações.
+
+- A interface também inclui um botão flutuante com aparência destacada para facilitar a adição de novas tarefas.
+
+### **Tipografia e Ícones**
+
+A fonte escolhida para a aplicação é a "Open Sans", importada do Google Fonts, conhecida por sua excelente legibilidade e aspecto moderno. Até o momento, a aplicação não utiliza ícones gráficos, mas a estrutura está preparada para a inclusão futura de bibliotecas como Font Awesome ou Material Icons, o que poderá enriquecer ainda mais a interface e a usabilidade.
+
+### **Interatividade**
+A aplicação proporciona um nível básico, porém eficaz, de interatividade com o usuário. O uso de eventos de clique, transições visuais ao passar o mouse (hover) e atualizações dinâmicas da interface asseguram uma experiência fluida. Todas as interações ocorrem diretamente no navegador, sem a necessidade de backend.
+
+### **Lógica JavaScript**
+
+A lógica por trás da aplicação foi implementada com JavaScript puro (vanilla JS), adotando uma abordagem orientada a eventos. A seguir, os principais aspectos da lógica:
+
+### **_Para escolher partes da página, utilize getElementById e querySelector._**
+
+- Para adicionar novas tarefas na lista, crie elementos HTML dinamicamente com createElement.
+
+- Use addEventListener para lidar com os eventos, implementando funções para ajustar ou apagar tarefas.
+
+- Ao editar, deixe o usuário colocar novos nomes para as tarefas usando prompt.
+
+- Quando o botão "Excluir" for clicado, apague elementos do DOM com remove().
+
+- Essas funcionalidades criam uma base forte para a aplicação melhorar, como salvar localmente (localStorage), separar as tarefas por tipo.
+
+### **Considerações Finais**
+
+A tela criada é um bom exemplo de aplicação front-end para organizar tarefas. Misturar HTML bem estruturado, CSS moderno e que se adapta a diferentes telas e JavaScript funcional resulta em algo leve, que funciona bem e é fácil de usar.
 ## ✔️ Banco de Dados
 
 - [A definir: MySQL, SQL Server ou SQLite]
