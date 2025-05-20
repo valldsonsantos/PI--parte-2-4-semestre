@@ -1,14 +1,14 @@
-**Projeto Integrador - Parte 2 - 4º Semestre**
----------------------------------------------------
-**🧠 Objetivo do Projeto**
+# **Projeto Integrador - Parte 2 - 4º Semestre**
+
+### **🧠 Objetivo do Projeto**
 
 Desenvolver um aplicativo voltado para a organização da vida acadêmica de estudantes universitários, com foco na gestão de prazos, provas, trabalhos e rotinas de estudo.
 A aplicação será composta por um Frontend web e um Backend em C# (.NET Core), com integração futura a um banco de dados.
 
-**🚀 Tecnologias Utilizadas**
+### **🚀 Tecnologias Utilizadas**
 
-✔️ Frontend
------------------
+## ✔️ Frontend
+
 - HTML5
 - CSS3
 - JavaScript (puro)
@@ -19,7 +19,7 @@ moderna e responsiva para usuários realizarem login ou cadastro no sistema. O l
 seções principais: Login e Cadastro, com transições suaves entre os dois modos, garantindo uma experiência
 de usuário intuitiva e agradável.
 
-**_Funcionalidades:_**
+### **_Funcionalidades:_**
 
 - _Animação de Transição:_ alternância dinâmica entre os formulários de login e cadastro utilizando classes CSS e animações com @keyframes.
 
@@ -41,7 +41,7 @@ de usuário intuitiva e agradável.
 
 - Componentes reutilizáveis com classes bem definidas.
 
-**_Interatividade:_**
+### **_Interatividade:_**
 
 - Botões de "Entrar" e "Cadastrar" alternam os modos de visualização ao manipular a classe do body.
 
@@ -59,7 +59,7 @@ de usuário intuitiva e agradável.
 
 - _social-media:_ exibe ícones de redes sociais (estáticos neste exemplo).
 
-**_Lógica JavaScript_**
+### **_Lógica JavaScript_**
 
 var btnSignin = document.querySelector("#signin");
 
@@ -81,19 +81,19 @@ _Esse script manipula a classe do < body > para alternar entre os modos de login
 
 ![Image](https://github.com/user-attachments/assets/697de7dc-96df-4a68-88f8-2b0439a7d7e7)
 
-✔️ Backend
---------------
+## ✔️ Backend
+
 - ASP.NET Core Web API (C#)
 - .NET 6 ou superior
 - API RESTful com Controllers
 - JSON como formato de comunicação
 
-✔️ Banco de Dados
--------------------
+## ✔️ Banco de Dados
+
 - [A definir: MySQL, SQL Server ou SQLite]
 - Tabelas esperadas: Usuarios, Tarefas
 
-**🛠️ Estrutura do Projeto**
+### **🛠️ Estrutura do Projeto**
 
 
 PI--parte-2-4-semestre/
@@ -122,7 +122,7 @@ PI--parte-2-4-semestre/
 
 || |─── **README.md**
 
-**📡 Endpoints Disponíveis (Backend)**
+### **📡 Endpoints Disponíveis (Backend)**
 
 **_POST /login_**
 
@@ -162,7 +162,7 @@ cd PI--parte-2-4-semestre
 2. Pressione F5 para rodar
 3. Acesse o Swagger ou use Postman para testar: http://localhost:5000/login
 
-**👥 Equipe**
+## **👥 Equipe**
 
 **Nome** (Função)
 
@@ -178,7 +178,7 @@ cd PI--parte-2-4-semestre
 
 - **Wellington Correa Ferreira** (Banco de Dados {Tabelas e scripts})
 
-**🎬 Entrega**
+### **🎬 Entrega**
 
 - 📅 Data limite: 19/05/2025
 - 📂 Repositório GitHub com todos os arquivos organizados por pastas
